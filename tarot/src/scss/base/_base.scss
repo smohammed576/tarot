@@ -1,0 +1,8 @@
+@use "../abstracts/variables";
+
+body{
+    min-height: 100vh;
+    background: map-get(variables.$colors, "background");
+    color: map-get(variables.$colors, "color");
+    font-family: map-get(variables.$baseVars, "font");
+}

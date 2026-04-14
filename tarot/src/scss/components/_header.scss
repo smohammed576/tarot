@@ -1,0 +1,9 @@
+@use "../abstracts/variables";
+@use "../abstracts/mixins";
+
+.header{
+    @include mixins.flexBox(center, center);
+    padding: 1rem;
+    font-size: 3em;
+    font-weight: 600;
+}

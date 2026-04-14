@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(197, 185, 166);
+  color: white;
+  font-family: "MedievalSharp";
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
